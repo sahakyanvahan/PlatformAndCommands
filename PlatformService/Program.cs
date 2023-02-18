@@ -11,10 +11,27 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 Console.WriteLine($"Command Service Endpoint {builder.Configuration["CommandService"]}");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+
+// builder.Services.AddDbContext<ApplicationDbContext>(options =>
+// {
+//     options.UseSqlServer(builder.Configuration.GetConnectionString("PlatformConnection"));
+// });
+
+if (builder.Environment.IsProduction())
 {
-    options.UseInMemoryDatabase("InMem");
-});
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("PlatformConnection"));
+    });
+}
+else
+{
+    Console.WriteLine("Using In-Memory Database");
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    {
+        options.UseInMemoryDatabase("InMem");
+    });
+}
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -34,7 +51,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-PlatformSeed.Seed(app);
+PlatformSeed.Seed(app, app.Environment.IsProduction());
 
 app.MapControllers();
 

@@ -14,7 +14,7 @@ spec:
     spec:
       containers :
         -  name :  commandsservice
-           image :  sahakyanvahan/commandsservice:latest
+           image :  sahakyanvahan/commandservice:latest
 ---
 apiVersion :  v1
 kind :  Service
@@ -25,9 +25,9 @@ spec:
   selector :
     app :  commandsservice
   ports:
-    -name: commandsservice
-    protocol: TCP
-    port:  80
-    targetPort:  80
+    - name: commandsservice
+      protocol: TCP
+      port:  80
+      targetPort:  80
       
  
