@@ -4,12 +4,16 @@ using CommandService.Models;
 
 namespace CommandService.Profiles;
 
-public class CommandsProfile: Profile
+public class CommandsProfile : Profile
 {
-    public CommandsProfile() 
+    public CommandsProfile()
     {
+        // Source -> Target
         CreateMap<Platform, PlatformReadDto>();
-        CreateMap<Command, CommandReadDto>();
+        CreateMap<PlatformPublishedDto, Platform>()
+            .ForMember(dest => dest.ExternalId,
+                opt => opt.MapFrom(src => src.Id));
         CreateMap<CommandCreateDto, Command>();
+        CreateMap<Command, CommandReadDto>();
     }
 }

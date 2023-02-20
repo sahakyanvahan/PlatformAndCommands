@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uD8Vmy8JL0LGnqEL8wLiqQ8Lb4wrvsLs/QbknWt9lk5VMQ9McfoAMky2FbaUsUVDkEI+UGUk/QcagJHOKJjr2Q==",
+  "dgSpecHash": "c9xtn5rGptZE/KhjksvW9rSmAvF7kIxQgohFeSQmrmM/yzuQ90vB0bw/0ftTt4K8w8Am0nj810sVQ6oeffkDPw==",
   "success": true,
   "projectFilePath": "/Users/vahan/Projects/Microservices.Demo/PlatformService/PlatformService.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "/Users/vahan/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
@@ -77,6 +78,7 @@
     "/Users/vahan/.nuget/packages/system.text.encoding.codepages/5.0.0/system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512",
     "/Users/vahan/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/vahan/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"

@@ -78,3 +78,4 @@
 /Users/vahan/Projects/Microservices.Demo/PlatformService/obj/Debug/net7.0/PlatformService.genruntimeconfig.cache
 /Users/vahan/Projects/Microservices.Demo/PlatformService/obj/Debug/net7.0/ref/PlatformService.dll
 /Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/appsettings.Production.json
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/RabbitMQ.Client.dll

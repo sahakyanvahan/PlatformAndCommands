@@ -42,3 +42,5 @@
 /Users/vahan/Projects/Microservices.Demo/CommandService/obj/Debug/net7.0/CommandService.pdb
 /Users/vahan/Projects/Microservices.Demo/CommandService/obj/Debug/net7.0/CommandService.genruntimeconfig.cache
 /Users/vahan/Projects/Microservices.Demo/CommandService/obj/Debug/net7.0/ref/CommandService.dll
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/appsetting.Production.json
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/RabbitMQ.Client.dll

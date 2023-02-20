@@ -1,6 +1,8 @@
 using System.Windows.Input;
 using AutoMapper;
 using CommandService.Data;
+using CommandService.Dtos;
+using CommandService.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CommandService.Controllers;
@@ -18,6 +20,13 @@ public class PlatformsController : ControllerBase
         _mapper = mapper;
     }
 
+    [HttpGet]
+    public ActionResult<IEnumerable<PlatformReadDto>> GetPlatforms()
+    {
+        Console.WriteLine("--> Getting Platforms from CommandService");
+        var platforms = _repository.GetAllPlatforms();
+        return Ok(_mapper.Map<IEnumerable<PlatformReadDto>>(platforms));
+    }
     
     [HttpPost]
     public ActionResult TestInboundConnection()
