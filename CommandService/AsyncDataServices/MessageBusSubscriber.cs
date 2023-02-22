@@ -24,7 +24,7 @@ public class MessageBusSubscriber : BackgroundService
         var factory = new ConnectionFactory()
         {
             HostName = _configuration["RabbitMQHost"], 
-            Port = int.Parse(_configuration["RabbitMQPort"])
+            Port = _configuration.GetValue<int>("RabbitMQPort")
         };
         
         _connection = factory.CreateConnection();

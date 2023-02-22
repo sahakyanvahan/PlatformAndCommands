@@ -1,4 +1,0 @@
-{
-  "RabbitMQHost": "rabbitmq-cluster-ip-service",
-  "RabbitMQPort": 5672
-}

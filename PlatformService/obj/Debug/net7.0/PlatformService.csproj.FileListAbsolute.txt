@@ -79,3 +79,10 @@
 /Users/vahan/Projects/Microservices.Demo/PlatformService/obj/Debug/net7.0/ref/PlatformService.dll
 /Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/appsettings.Production.json
 /Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Grpc.AspNetCore.Server.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Grpc.Core.Api.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Grpc.Net.Client.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Grpc.Net.ClientFactory.dll
+/Users/vahan/Projects/Microservices.Demo/PlatformService/bin/Debug/net7.0/Grpc.Net.Common.dll

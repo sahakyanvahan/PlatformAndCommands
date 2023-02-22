@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "b413Xdo8lG+xcYP4g4Kq2rP8pgcvVzLlTE1r1bA1uOjcPKhn7AMP+HGTj97Zzv+1W+X0GQ3z+Ufi7ZtPnjCMgw==",
+  "dgSpecHash": "+KjfAMnp/b2bf26aG4f0ZGsK27nF4iunMg6IrT09VsP3+ca1STIKrpSnhZUJhFP70v3JesaJ+BcNHAXaG4lWEg==",
   "success": true,
   "projectFilePath": "/Users/vahan/Projects/Microservices.Demo/CommandService/CommandService.csproj",
   "expectedPackageFiles": [
     "/Users/vahan/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
     "/Users/vahan/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/google.protobuf/3.22.0/google.protobuf.3.22.0.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/grpc.core.api/2.51.0/grpc.core.api.2.51.0.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/grpc.net.client/2.51.0/grpc.net.client.2.51.0.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/grpc.net.common/2.51.0/grpc.net.common.2.51.0.nupkg.sha512",
+    "/Users/vahan/.nuget/packages/grpc.tools/2.52.0-pre1/grpc.tools.2.52.0-pre1.nupkg.sha512",
     "/Users/vahan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/vahan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.2/microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "/Users/vahan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

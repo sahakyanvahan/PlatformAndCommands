@@ -42,5 +42,9 @@
 /Users/vahan/Projects/Microservices.Demo/CommandService/obj/Debug/net7.0/CommandService.pdb
 /Users/vahan/Projects/Microservices.Demo/CommandService/obj/Debug/net7.0/CommandService.genruntimeconfig.cache
 /Users/vahan/Projects/Microservices.Demo/CommandService/obj/Debug/net7.0/ref/CommandService.dll
-/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/appsetting.Production.json
 /Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/appsettings.Production.json
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/Grpc.Core.Api.dll
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/Grpc.Net.Client.dll
+/Users/vahan/Projects/Microservices.Demo/CommandService/bin/Debug/net7.0/Grpc.Net.Common.dll
